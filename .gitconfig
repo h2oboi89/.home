@@ -1,0 +1,12 @@
+[user]
+    email = h2oboi89@gmail.com
+    name = Waters
+[alias]
+    gla = log --graph --decorate --all
+    glo = log --graph --decorate --all --oneline
+    glv = log --graph --decorate --all --name-only
+    subup = submodule update --init --recursive
+[credential]
+    helper = cache --timeout=86400
+[push]
+    default = matching
