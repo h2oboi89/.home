@@ -19,8 +19,3 @@ Click `Windows` link in downloads box:
 - [Generate Keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 - [Add key to GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 - [Test](https://help.github.com/articles/testing-your-ssh-connection/)
-
-## toggleNetwork.bat
-Run as administrator
-
-Useful for when you find yourself switching between wired network and wireless network a lot.
