@@ -1,5 +1,5 @@
 [user]
-    email = daniel.waters2@geappliances.com
+    email = <TODO:Email>
     name = Waters
 [alias]
     gla = log --graph --decorate --all
