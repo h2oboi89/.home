@@ -1,5 +1,5 @@
 [user]
-    email = h2oboi89@gmail.com
+    email = daniel.waters2@geappliances.com
     name = Waters
 [alias]
     gla = log --graph --decorate --all
@@ -7,6 +7,10 @@
     glv = log --graph --decorate --all --name-only
     subup = submodule update --init --recursive
 [credential]
-    helper = cache --timeout=86400
+	helper = wincred
 [push]
-    default = matching
+	default = current
+[core]
+	autocrlf = true
+[pull]
+	default = current
