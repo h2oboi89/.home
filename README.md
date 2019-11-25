@@ -1,4 +1,4 @@
-# Waters Home
+# Home
 
 Copy the files to the `home` directory
 
