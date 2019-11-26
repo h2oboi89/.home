@@ -1,16 +1,17 @@
 # Home
 
-Copy the files to the `home` directory
+## Windows
+See files in the [windows](./windows) directory
 
-- Windows : `C:\Users\<USERNAME>`
+Location: `C:\Users\<USERNAME>`
+- .gitconfig
+- .bash_profile
 
-remove the `windows` and `ubuntu` from the respective files
+Location: `C:\Users\<USERNAME>\Documents\PowerShell`
+- Microsoft.PowerShell_profile.ps1
 
-## GIT (Windows)
-Click `Windows` link in downloads box:
-- [Git for Windows](https://git-scm.com/download/win)
-
-[Direct download link](https://git-scm.com/download/win)
+## GIT
+[Git Download](https://git-scm.com/download/)
 
 ## GitHub
 [GitHub Authentication with Personal Access Tokens](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
