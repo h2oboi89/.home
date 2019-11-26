@@ -6,8 +6,8 @@ $GitPromptSettings.DefaultPromptPrefix.ForegroundColor = [ConsoleColor]::Blue
 $GitPromptSettings.DefaultPromptBeforeSuffix.Text = '`n'
 $GitPromptSettings.EnableFileStatus = $false
 
-# .NET Solution project output directory cleaning function
-# - Reads *.sln file and iterates through Projects and cleans out bin/ and obj/ directories
+# C# Solution project output directory cleaning function
+# - Reads *.sln file and iterates through *.csproj Projects and cleans out bin/ and obj/ directories
 function Clean-OutputDirectories {
     $solution = (Get-ChildItem -Path . -Filter *.sln).Name
     
