@@ -3,6 +3,9 @@ Adds ordering to python unit tests for pytest.
 This is aimed at test files provided by Exercism where tests
 are designed to build on each other sequentially to build toward
 final solution for a given exercise.
+
+Requires the "pytest-ordering" module:
+https://pypi.org/project/pytest-ordering/
 """
 import sys
 
