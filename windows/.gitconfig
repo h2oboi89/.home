@@ -1,16 +1,16 @@
 [user]
-    email = <TODO:Email>
-    name = Waters
+	email = <TODO>
+	name = Waters
 [alias]
-    gla = log --graph --decorate --all
-    glo = log --graph --decorate --all --oneline
-    glv = log --graph --decorate --all --name-only
-    subup = submodule update --init --recursive
+	gla = log --graph --decorate --all
+	glo = log --graph --decorate --all --oneline
+	glv = log --graph --decorate --all --name-only
+	subup = submodule update --init --recursive
 [credential]
 	helper = wincred
-[push]
-	default = current
 [core]
 	autocrlf = true
+[push]
+	default = current
 [pull]
 	default = current
