@@ -8,7 +8,7 @@ Location: `C:\Users\<USERNAME>`
 - .bash_profile
 
 Location: `C:\Users\<USERNAME>\Documents\PowerShell`
-- Microsoft.PowerShell_profile.ps1
+- PowerShell Folder
 
 ## GIT
 [Git Download](https://git-scm.com/download/)
