@@ -1,14 +1,7 @@
 # Home
 
 ## Windows
-See files in the [windows](./windows) directory
-
-Location: `C:\Users\<USERNAME>`
-- .gitconfig
-- .bash_profile
-
-Location: `C:\Users\<USERNAME>\Documents\PowerShell`
-- PowerShell Folder
+See [Windows Readme](./windows/README.md)
 
 ## GIT
 [Git Download](https://git-scm.com/download/)

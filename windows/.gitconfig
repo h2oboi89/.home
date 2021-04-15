@@ -6,8 +6,6 @@
 	glo = log --graph --decorate --all --oneline
 	glv = log --graph --decorate --all --name-only
 	subup = submodule update --init --recursive
-[credential]
-	helper = wincred
 [core]
 	autocrlf = true
 [push]

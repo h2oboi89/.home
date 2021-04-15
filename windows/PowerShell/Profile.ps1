@@ -11,7 +11,11 @@ $GitPromptSettings.EnableFileStatus = $false
 try {
     New-Alias nano "C:\Program Files\Git\usr\bin\nano.exe" -ErrorAction Stop
 
-    # use GNU Win32 installed vs built-in
-    del alias:ls -Force
-    del alias:rm -Force
+    # override windows `tree` with Unix version
+    Set-Alias tree "C:\Program Files (x86)\GnuWin32\bin\tree.exe" -Force
+    
+    # remove Powershell alias and use GnuWin32 versions
+    Remove-Alias -Name ls -Force
+    Remove-Alias -Name rm -Force
+    New-Alias lua lua53
 } catch {}
