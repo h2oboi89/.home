@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/.vscode/
+**/__pycache__/
+*.user
+*.suo
+Doxygen/html/
+*.Tmp
+warnings.txt
+.vs/*
+artifacts/
+TestResult.xml
+Release/
+OpenCover/

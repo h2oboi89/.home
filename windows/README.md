@@ -12,6 +12,7 @@
 - [Lua](https://www.lua.org/download.html)
 - [Python 3](https://www.python.org/downloads/windows/)
     - be sure to install the `py` launcher
+- [Doxygen](https://www.doxygen.nl/download.html)
 
 # Path Modifications
 
