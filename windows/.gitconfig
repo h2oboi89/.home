@@ -6,6 +6,7 @@
 	glo = log --graph --decorate --all --oneline
 	glv = log --graph --decorate --all --name-only
 	subup = submodule update --init --recursive
+	rclone = clone --recurse-submodules
 [core]
 	autocrlf = true
 [push]
