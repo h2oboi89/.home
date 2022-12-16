@@ -1,15 +1,25 @@
 [user]
-	email = <TODO>
-	name = Waters
+    email = <TODO>
+    name = Waters
 [alias]
-	gla = log --graph --decorate --all
-	glo = log --graph --decorate --all --oneline
-	glv = log --graph --decorate --all --name-only
-	subup = submodule update --init --recursive
-	rclone = clone --recurse-submodules
-[core]
-	autocrlf = true
+    gla = log --graph --decorate --all
+    glo = log --graph --decorate --all --oneline
+    glv = log --graph --decorate --all --name-only
+    subup = submodule update --init --recursive
+    rclone = clone --recurse-submodules
+    sync = remote prune origin
+    a = add
+    aa = add .
+    c = commit
+    d = diff -w
+    ds = diff --staged -w
+    f = fetch
+    s = status -su
+[credential]
+    helper = wincred
 [push]
-	default = current
+    default = current
+[core]
+    autocrlf = true
 [pull]
-	default = current
+    default = current
