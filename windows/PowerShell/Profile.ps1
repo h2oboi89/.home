@@ -8,11 +8,11 @@ $GitPromptSettings.DefaultPromptBeforeSuffix.Text = '`n'
 $GitPromptSettings.EnableFileStatus = $false
 
 function Open-Gea-Repo { 
-  Set-Location "~\workspace\cs\gea3_45" 
+  Set-Location "~\workspace\cs\gea3" 
 }
 
 function Open-Newfi-Repo { 
-  Set-Location "~\workspace\cs\newfi_45"
+  Set-Location "~\workspace\cs\newfi"
 }
 
 function Open-Aui-Repo {
