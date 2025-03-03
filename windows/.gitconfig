@@ -1,5 +1,5 @@
 [user]
-    email = <TODO>
+    email = TODO
     name = Waters
 [alias]
     gla = log --graph --decorate --all
@@ -9,17 +9,21 @@
     rclone = clone --recurse-submodules
     sync = remote prune origin
     a = add
-    aa = add .
+    ad = add .
+    aa = add --all
     c = commit
+    co = checkout
     d = diff -w
     ds = diff --staged -w
     f = fetch
     s = status -su
 [credential]
-    helper = wincred
+    helper = store
 [push]
     default = current
 [core]
     autocrlf = true
+    untrackedcache = true
+    fsmonitor = true
 [pull]
     default = current
